@@ -1,0 +1,114 @@
+html, body {
+	width: 100%;
+	background-color: #005AA3;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*HEADER*/
+.header {
+	width: 100%;
+	background-color: #004E8E;
+	color: #FFFFFF;
+	font-family: "Gill Sans", sans-serif;
+	font-size: .2em;
+	padding: 2px;
+	display: flex;
+	box-sizing: padding-box;
+
+}
+
+.info {
+	float: left;
+
+}
+
+.button {
+	float: right;
+	margin: 1px;
+}
+
+
+/*MAIN STUFF*/
+.content {
+	width: 96%;
+	background-color: #FFFFFF;
+	padding: 20px;
+	box-sizing: padding-box;
+}
+
+
+/*TOP LOGO AND LINKS*/
+.logo {
+	float: left;
+}
+
+.nav {
+	clear: both;
+	float: right;
+}
+
+.link {
+	font-family: "Gill Sans", sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+a.link::active {
+	color: #59BEE3;
+}
+
+a.link::link {
+	color:#0C6AAE;
+}
+
+/*MAIN PICTURE*/
+.main-pic {
+	width: 80%;
+	height: 30%;
+}
+
+/*3 SMALLER PICS AND CAPTIONS*/
+.small-pic {
+
+}
+
+.caption {
+
+}
+
+.caption-link {
+
+}
+
+/*SECONDARY BIG PIC*/
+.secondary-pic {
+
+}
+
+/*MAIN WORDS*/
+.words {
+
+}
+
+/*FOOTER*/
+.footer {
+
+}
+
+.privacy {
+
+}
+
+.photo-cred {
+
+}
+
+.more-links {
+
+}
+
+.more-nav {
+
+}
