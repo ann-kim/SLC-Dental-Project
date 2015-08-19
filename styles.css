@@ -45,22 +45,34 @@ html, body {
 }
 
 .nav {
-	clear: both;
+	width: 50px;
+	height: 30px;
 	float: right;
+	padding: 15px;
+	display: flex;
 }
 
 .link {
 	font-family: "Gill Sans", sans-serif;
 	font-size: 1em;
 	text-decoration: none;
+	flex-direction: row-reverse;
 }
 
 a.link::active {
-	color: #59BEE3;
+	color: #FFFFFF;
 }
 
 a.link::link {
-	color:#0C6AAE;
+	color: #3381BB;
+}
+
+a.link::visited {
+	color: #3381BB;
+}
+
+a.link::hover {
+	color: #3381BB;
 }
 
 /*MAIN PICTURE*/
